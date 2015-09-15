@@ -18,7 +18,7 @@ list_t* insert_sorted(list_t* head, list_t* new_element) {
 	  new_element->next = head;
 	  head = new_element;
 	  return head;
-	  {
+	  }
 	
 	
 	list_t* prev = head;
@@ -62,7 +62,6 @@ list_t* reverse(list_t* head) {
 
 	    hold = grab;
 	    grab = hold->next;
-
 	  }
 
 	hold->next = last;
